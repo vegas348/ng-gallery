@@ -8,7 +8,7 @@ import { Product } from './models/products';
 export class AppComponent {
   product: Product;
   // tslint:disable-next-line:max-line-length
-  constructor(){
+  constructor() {
   this.product = new Product('wimad2016', 'red wine', './resources/images/wines/red-wine/1234', ['export', 'sales', 'wine', 'red wine'], 6.50);
 }
 
